@@ -1,0 +1,126 @@
+/* Product Card Link Wrapper */
+.product-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.product-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: #fff7f7;
+  position: relative;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+/* 
+.product-card:hover .product-image img {
+  transform: scale(1.1);
+} */
+
+.product-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c1810;
+  margin: 0 0 12px 0;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  flex: 1;
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6f4e37;
+}
+
+.add-to-cart-btn {
+  background: linear-gradient(135deg, #6f4e37, #8b6f47);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.add-to-cart-btn:hover {
+  background: linear-gradient(135deg, #8b6f47, #6f4e37);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(111, 78, 55, 0.3);
+}
+
+.add-to-cart-btn:active {
+  transform: scale(0.9);
+}
+
+.badge-new {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e74c3c;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #4c9528;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}

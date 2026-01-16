@@ -1,0 +1,85 @@
+.not-found-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.not-found-emoji {
+  font-size: 120px;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.not-found-page h1 {
+  font-size: 72px;
+  color: #6f4e37;
+  margin: 0 0 20px 0;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(111, 78, 55, 0.1);
+}
+
+.not-found-page p {
+  font-size: 20px;
+  color: #666;
+  margin: 0 0 40px 0;
+  max-width: 500px;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #6f4e37, #8b6f47);
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(111, 78, 55, 0.3);
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(111, 78, 55, 0.4);
+  background: linear-gradient(135deg, #8b6f47, #6f4e37);
+}
+
+.home-button:active {
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .not-found-emoji {
+    font-size: 80px;
+  }
+
+  .not-found-page h1 {
+    font-size: 48px;
+  }
+
+  .not-found-page p {
+    font-size: 16px;
+  }
+
+  .home-button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
