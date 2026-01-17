@@ -31,6 +31,13 @@ function AboutPage() {
           >
             🔗 GitHub
           </a>
+          <a
+            href="https://hoangphuc-dev-coffeeshop.vercel.app/about"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🌐 Website
+          </a>
         </div>
 
         {/* CV Download Buttons */}
