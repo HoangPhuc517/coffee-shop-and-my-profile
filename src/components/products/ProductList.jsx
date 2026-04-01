@@ -31,11 +31,13 @@ function ProductList() {
     );
   }
 
+  const sorted = products.sort((a, b) => b.price - a.price);
+
   return (
     <div className="product-list">
       <div className="product-grid">
-        {products.map((product) => (
-          <ProductCard key={product.id} {...product} />
+        {products.map((sorted) => (
+          <ProductCard key={sorted.id} {...sorted} />
         ))}
       </div>
     </div>
