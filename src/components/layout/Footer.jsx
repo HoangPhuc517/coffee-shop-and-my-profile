@@ -15,7 +15,7 @@ function Footer() {
         {/* Liên hệ */}
         <div className="footer-section">
           <h4>Liên hệ</h4>
-          <p>📍 43 Vườn Lài, An Phú Đông, TP.Hồ Chí Minh</p>
+          <p>📍 Hanoi Capital, Vietnam</p>
           <p>📞 0337 523 349</p>
           <p>✉️ Hgphuc2k3@gmail.com</p>
         </div>

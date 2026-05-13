@@ -18,12 +18,12 @@ function AboutPage() {
       <section className="hero-section" data-aos="fade-down">
         <img src="/Avatar.jpg" alt="Phan Long Hoang Phuc" className="avatar" />
         <h1>Phan Long Hoang Phuc</h1>
-        <h2>Back-End Developer Fresher (.NET)</h2>
+        <h2>Full-Stack Developer Junior (.NET)</h2>
         <div className="contact-info">
           <span>📅 05/01/2003</span>
           <span>📱 0337.523.349</span>
           <span>✉️ hgphuc2k3@gmail.com</span>
-          <span>📍 An Phu Dong Ward, Ho Chi Minh City</span>
+          <span>📍 Hanoi Capital, Vietnam</span>
           <a
             href="https://github.com/HoangPhuc517"
             target="_blank"
@@ -43,14 +43,14 @@ function AboutPage() {
         {/* CV Download Buttons */}
         <div className="cv-download">
           <a
-            href="/PHAN_LONG_HOANG_PHUC_BACK-END_DEVELOPER_FRESHER_CV.pdf"
+            href="/PHAN_LONG_HOANG_PHUC_FULLSTACK_DEVELOPER_CV.pdf"
             download
             className="cv-btn modern"
           >
             📄 Download CV (Modern)
           </a>
           <a
-            href="/CV_PHAN_LONG_HOANG_PHUC_BACK_END_DEVELOPER_FRESHER.pdf"
+            href="/PHAN_LONG_HOANG_PHUC_FULLSTACK_DEVELOPER_CV.pdf"
             download
             className="cv-btn formal"
           >
